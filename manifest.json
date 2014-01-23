@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "The Guardian",
+	"description": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world's leading liberal voice",
+	"version": "1",
+	"app": {
+		"urls": [
+			"*://*.theguardian.com"
+		],
+		"launch": {
+			"web_url": "http://www.theguardian.com"
+		}
+	},
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"permissions": [
+		"notifications",
+		"geolocation"
+	]
+}
